@@ -115,7 +115,7 @@ vars.env
 
 # Private credentials.
 private/
-# *.sqlite3
+*.sqlite3
 *.sqlite
 *lock.json
 .vscode
