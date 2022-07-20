@@ -50,7 +50,8 @@ INSTALLED_APPS = [
     'cbauth',
     'corsheaders',
 
-    'authentication'
+    'authentication',
+    'todo',
 ]
 
 SITE_ID = 1

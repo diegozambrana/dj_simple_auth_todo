@@ -31,4 +31,6 @@ urlpatterns = [
     path('public/', IndexView.as_view()),
     path('private/', IndexView.as_view()),
     path('auth/reset/<str:id>/<str:uuid>/', IndexView.as_view()),
+
+    path('api/todo', include('todo.urls'), name="todo"),
 ]
